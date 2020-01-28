@@ -5,9 +5,11 @@ create_readme:
 
 add_title:
 	echo "# Peer-graded Assignment: Bash, Make, Git, and Github #" > README.md
+	echo >> README.md
 
 add_date:
 	date >> README.md
+	echo >> README.md
 
 add_num_of_lines:
 	echo "Number of lines in Guessinggame: " >> README.md
